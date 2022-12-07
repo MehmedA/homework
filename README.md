@@ -1,2 +1,2 @@
 # homework
-homework repo for Clarusway
+Homework repo for Clarusway
