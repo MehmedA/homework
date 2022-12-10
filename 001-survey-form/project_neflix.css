@@ -17,6 +17,7 @@ body {
 #container {
     background-color: rgb(0, 0, 0, 0.3);
     font-family: Arial, Helvetica, sans-serif;
+    height: 750px;
 }
 
 #title {
