@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(26, 26, 26);
+  width: 100%;
 }
 
 header {
@@ -49,13 +50,24 @@ a:hover {
 
 .logo {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 215px;
   
 }
 
 .search {
   text-align: center;
   padding: 20px;
+}
+
+.search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 400px;
+  height: 30px;
+  font-size: 17px;
+  
 }
 
 .buttons {
@@ -68,16 +80,19 @@ a:hover {
 
 button {
   padding: 10px;
-  border: none;
+  border: 1px solid transparent;
   font-size: 15px;
   border-radius: 3px;
   background-color: rgba(93, 92, 92, 0.5);
   color: white;
+  
 
 }
 
 button:hover {
   cursor: pointer;
+  border: 1px solid white;
+  
   
 }
 
@@ -90,7 +105,7 @@ p a {
 
 .language {
   text-align: center;
-  padding-bottom: 15%;
+  text-align: bottom;
   font-size: 14px;
   color: white;
 }
@@ -99,18 +114,30 @@ p a {
   padding: 15px;
   background-color: rgb(14, 14, 14);
   color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  border-bottom: 0.1px solid white;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   background-color: rgb(14, 14, 14);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:50px;
+  
 }
 
 .footer-nav1 {
   width: 25%;
   white-space: nowrap;
   margin-left: 10px;
+  
 }
 
 .footer-nav2 {
@@ -119,6 +146,27 @@ footer {
   margin-right: 10px;
 }
 
-.carbon {
-  
+.carbon img {
+  padding-right: 6px;
+  width: 18px;
+}
+
+form {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  border: 0.1px solid white;
+  margin: 0 auto;
+  border-radius: 30px;
+  align-items: center; 
+
+}
+
+.search-img {
+  padding: 10px;
+  height: 40px;
+}
+
+.search a {
+  padding: 0;
 }
