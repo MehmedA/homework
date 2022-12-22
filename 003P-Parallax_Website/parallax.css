@@ -48,6 +48,7 @@ h1 {
 .aws {
     background-image: url(img/bg2.jpg);
     background-size: cover;
+    display: flex;
     background-position: center;
     justify-content: center;
     background-repeat: no-repeat;
@@ -56,10 +57,13 @@ h1 {
     opacity: 0.7;
 }
 
-.aws img {
+.clarusway {
     width: 30%;
     margin: 30rem;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
 }
 .section-black {
     background-color: #282e34;
@@ -100,3 +104,39 @@ p {
 h2 {
     padding-top: 2rem;
 }
+
+@media only screen and (max-width: 900px) {
+    span {
+      font-size: 25px;
+      letter-spacing: 4px;
+    }
+    p {
+      padding: 25px 50px 40px;
+      line-height: 1.6;
+    }
+    .clarus,
+    .aws,
+    .Data-Analytics,
+    .Why-Clarusway {
+      height: 80vh;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    span {
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    p {
+      padding: 15px 30px 20px;
+      line-height: 1.4;
+    }
+    h1 {
+      padding-top: 30px;
+    }
+    .clarus,
+    .aws,
+    .Data-Analytics,
+    .Why-Clarusway {
+      height: 50vh;
+    }
+  }
