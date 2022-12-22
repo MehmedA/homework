@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif ;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.clarus {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 30px;
+    font-size: 48px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: 30rem;
+    outline: 8px inset purple;
+    outline-offset: 12px;
+    letter-spacing: 8px;
+}
+
+.section-white {
+    background-color: white; 
+    height: 20vh;
+    padding: 5rem;
+    color: black;
+    
+}
+
+.aws {
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.aws img {
+    width: 30%;
+    margin: 30rem;
+}
+.section-black {
+    background-color: black;
+    color: white;
+    height: 20vh;
+    padding: 5rem;
+}
+
+.Data-Analytics {
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Why-Clarusway {
+    background-image: url(img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
