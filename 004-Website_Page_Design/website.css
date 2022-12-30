@@ -83,7 +83,7 @@ h1 {
   padding: 2rem;
   background-color: #35424a;
   position: sticky;
-  top: 9vh;
+  top: 8.9vh;
   left: 0;
 }
 
@@ -115,6 +115,7 @@ h3 {
 .form-a button:hover {
   background-color: wheat;
   color: #e84910;
+  cursor: pointer;
 }
 
 #home {
@@ -143,10 +144,14 @@ h3 {
   font-size: 1.8rem;
 }
 
+#sec {
+  margin-bottom: 15vh;
+}
+
 #about {
   display: flex;
   gap: 3rem;
-  height: 90vh;
+  height: 70vh;
   line-height: 1.2;
   padding: 4rem;
   font-size: 1.8rem;
@@ -164,7 +169,7 @@ h3 {
 .right {
   padding: 1.5rem;
   width: 30%;
-  height: 20vh;
+  height: 25vh;
   color: white;
   background-color: #35424a;
 }
@@ -243,6 +248,7 @@ textarea {
 .form-b button:hover {
   background-color: wheat;
   color: #e84910;
+  cursor: pointer;
 }
 
 footer {
